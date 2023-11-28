@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 3px;
+    padding: 3px;
     background: linear-gradient(to right, white 50%, black 50%);
     /* Puedes ajustar el porcentaje según tus necesidades */
     background-size: 100% 100%; 
@@ -9,19 +9,21 @@ body {
 }
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 3px;
     padding: 0;
     display: flex;
 }
+
 #volver{
     color: blue;
     max-width: 100px;
     padding: 3px;
     background-color: white;
     border-radius: 10px;}
+
 nav ul li {
     list-style: none;
-    margin-left: 75px;
+    margin-right: 25px;
     padding: 12px 0;
     float: left;
     position: relative;
