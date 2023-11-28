@@ -34,18 +34,14 @@ nav ul li a {
     font-weight: bold;
 }
 
-
+/* Estilos del encabezado */
 .header {
-
     display: grid;
-    grid-template-columns: (3,1fr);
+    grid-template-columns: 1fr; /* Cambia a una columna en dispositivos móviles */
     align-items: center;
-    justify-content: space-between;
-    padding: 100px;
-    background: linear-gradient(to right, white 50%, black 50%);
-
+    justify-content: center;
+    padding: 20px;
 }
-
 
 .imagen {
     width: 100px;
