@@ -76,8 +76,8 @@ nav ul li {
 
 a {
     text-transform: lowercase;
-    background-color: black;
     position: relative;
+    
 }
 
 /* Media query para pantallas más pequeñas, como dispositivos móviles */
