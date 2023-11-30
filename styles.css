@@ -21,14 +21,7 @@ nav ul {
     background-color: white;
     border-radius: 10px;}
 
-nav ul li {
-    list-style: none;
-    margin-right: 25px;
-    padding: 12px 0;
-    float: left;
-    position: relative;
-    
-}
+
 
 nav ul li a {
     text-decoration: none;
@@ -75,9 +68,36 @@ h2{
 p{
     color: white;
 }
-a {
-   color: white;
+nav ul li {
+    display: table-cell;
+    position: relative;
+    padding: 0 15px;
 }
+
+a {
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+/* Media query para pantallas más pequeñas, como dispositivos móviles */
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block; /* Cambiar a apilado en dispositivos móviles */
+        padding: 10px; /* Ajustar el relleno */
+    }
+
+    a {
+        display: block; /* Ajustar el enlace a apilado */
+        padding: 10px;
+    }
+}
+
 
 section {
     display: grid;
