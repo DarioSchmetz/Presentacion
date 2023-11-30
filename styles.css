@@ -107,10 +107,14 @@ section {
     padding: 20px;
     background-color: #333;
     border-radius: 4px;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);}
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+opacity: 0; /* Inicialmente, establece la opacidad en 0 para ocultar el contenido */
+    transition: opacity 0.3s ease; /* Agrega una transición suave */}
 section:hover {
     transform: scale(1.1); /* Aumenta el tamaño al 110% */
     transition: transform 0.3s ease; /* Agrega una transición suave */
+        opacity: 1; /* Cuando el mouse está sobre la sección, establece la opacidad en 1 para mostrar el contenido */
+
 }
 .habilidad {
     background-color: white;
