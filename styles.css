@@ -28,6 +28,10 @@ nav ul li a {
     color: blue;
     font-weight: bold;
 }
+li a.active, li a:hover{
+    background: red;
+    transition: .5s;
+}
 
 /* Estilos del encabezado */
 .header {
