@@ -4,8 +4,8 @@ body {
     padding: 3px;
     background: linear-gradient(to right, white 50%, black 50%);
     /* Puedes ajustar el porcentaje según tus necesidades */
-    background-size: 100% 100%; 
-    background-repeat: no-repeat;
+   font-size: 14px;
+    line-height: 1,5;
 }
 nav ul {
     list-style: none;
